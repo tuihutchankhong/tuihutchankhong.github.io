@@ -1075,6 +1075,11 @@ textarea#comment.update_mail::placeholder {
   text-align: center;
 }
 
+.intro-subtitle {
+  font-size: 32px;
+  text-align: center;
+}
+
 .intro-description {
   text-align: center;
   font-size: 24px;
@@ -1091,6 +1096,11 @@ textarea#comment.update_mail::placeholder {
   text-align: center;
 }
 
+.intro-product-text {
+  font-size: 16px;
+  text-align: center;
+}
+
 .custom-slider {
   padding: 0;
 }
@@ -1100,6 +1110,5 @@ textarea#comment.update_mail::placeholder {
 }
 
 .custom-contact {
-  margin-top: 50px;
   padding-bottom: 25px;
 }
