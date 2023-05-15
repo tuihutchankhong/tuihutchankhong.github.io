@@ -215,7 +215,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    /*background-image: url(../images/banner-bg.png);*/
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -268,8 +268,10 @@ button {
     float: right;
 }
 
-.navbar {
-    padding: 15px 50px;
+.navbar-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .user_icon {
@@ -858,8 +860,7 @@ textarea#comment.massage-bt::placeholder {
     width: 100%;
     float: left;
     height: auto;
-    background-image: url(../images/footer-bg.png);
-    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 90px 0px 0px 0px;
 }
 
@@ -1037,4 +1038,68 @@ textarea#comment.update_mail::placeholder {
 
 .margin_top90 {
     margin-top: 90px;
+}
+
+.navbar-custom {
+  height: 84px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.06);
+  display: flex;
+}
+
+.navbar-custom-content {
+
+}
+
+.navbar-custom-logo {
+
+}
+
+.navbar-logo-image {
+  height: 55px;
+}
+
+.navbar-collapsed {
+  padding: 15px;
+  background-color: white;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-title {
+  font-size: 48px;
+  text-align: center;
+}
+
+.intro-description {
+  text-align: center;
+  font-size: 24px;
+}
+
+.intro-product-title {
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.intro-product-description {
+  font-size: 18px;
+  text-align: center;
+}
+
+.custom-slider {
+  padding: 0;
+}
+
+.custom-slider-image {
+  height: 400px;
+}
+
+.custom-contact {
+  margin-top: 50px;
+  padding-bottom: 25px;
 }
