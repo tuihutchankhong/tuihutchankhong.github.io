@@ -850,7 +850,6 @@ textarea#comment.massage-bt::placeholder {
     width: 100%;
     float: left;
     height: auto;
-    background-color: rgba(0, 0, 0, 0.8);
     padding: 90px 0px 0px 0px;
 }
 
@@ -1146,6 +1145,7 @@ textarea#comment.update_mail::placeholder {
 
 .custom-contact {
   padding-bottom: 25px;
+  background-color: #282A35;
 }
 
 .sku-gallery-image {
