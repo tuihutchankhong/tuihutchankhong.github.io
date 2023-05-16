@@ -1052,22 +1052,53 @@ textarea#comment.update_mail::placeholder {
   background-color: white;
 }
 
+.branding-container {
+  color: white;
+  background-color: #5DA63E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 0;
+}
+
+.branding-intro {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+
+.branding-description {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.branding-content {
+  margin-top: 0;
+  padding: 0;
+}
+
 .intro-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 50px 0;
 }
 
 .intro-title {
   font-size: 48px;
   font-weight: 600;
   text-align: center;
+  color: #5DA63E;
 }
 
 .intro-subtitle {
   font-size: 32px;
   text-align: center;
+  font-weight: 500;
 }
 
 .intro-description {
@@ -1080,6 +1111,7 @@ textarea#comment.update_mail::placeholder {
   font-size: 24px;
   text-align: center;
   font-weight: 600;
+  color: #5DA63E;
 }
 
 .intro-product-description {
@@ -1111,6 +1143,7 @@ textarea#comment.update_mail::placeholder {
 .sku-title {
   font-size: 40px;
   font-weight: 600;
+  color: #5DA63E;
 }
 
 .sku-image {
@@ -1123,7 +1156,7 @@ textarea#comment.update_mail::placeholder {
 }
 
 .sku-table-headers {
-  background-color: #61d800;
+  background-color: #5DA63E;
   color: white;
 }
 
@@ -1145,7 +1178,7 @@ textarea#comment.update_mail::placeholder {
 
 .custom-contact {
   padding-bottom: 25px;
-  background-color: #282A35;
+  background-color: #5DA63E;
 }
 
 .sku-gallery-image {
@@ -1169,5 +1202,9 @@ textarea#comment.update_mail::placeholder {
 @media only screen and (max-width: 500px) {
   .sku-gallery {
     width: 100%;
+  }
+
+  .sku-table-cell {
+    padding: 0 15px;
   }
 }
