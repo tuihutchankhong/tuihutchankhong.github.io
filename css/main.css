@@ -1,0 +1,78 @@
+body {
+  font-family: 'Roboto';
+}
+
+.kaka-navbar {
+  padding: 0;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.06);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999999;
+  background-color: #fff;
+}
+
+.kaka-navbar-top {
+  width: 100%;
+  height: 30px;
+  background-color: #5DA63E;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.kaka-navbar-top-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.kaka-navbar-top-icon-container {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.kaka-navbar-top-icon-text {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.kaka-navbar-top-icon-email {
+  height: 14px;
+}
+
+.kaka-navbar-top-icon-zalo {
+  height: 20px;
+}
+
+.kaka-navbar-collapse {
+  background-color: #fff;
+}
+
+.kaka-navbar-content {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.kaka-navbar-logo {
+  height: 55px;
+}
+
+.kaka-main {
+  padding-top: 110px;
+}
+
+.kaka-banners {
+  margin-top: 50px;
+}
+
+.kaka-about-us-intro {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
