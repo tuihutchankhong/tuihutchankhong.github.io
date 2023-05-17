@@ -104,6 +104,10 @@ body {
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.06);
   }
 
+  .kaka-navbar-container {
+    padding: 0 12px !important;
+  }
+
   .kaka-navbar-right {
     float: none;
   }
