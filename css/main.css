@@ -121,6 +121,12 @@ body {
   position: fixed;
   right: 40px;
   bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.kaka-floating-link {
+  padding: 5px 0;
 }
 
 .kaka-floating-icon {
