@@ -49,19 +49,29 @@ body {
   height: 20px;
 }
 
-.kaka-navbar-collapse {
-  background-color: #fff;
+.kaka-navbar-container {
+  padding: 0 !important;
 }
 
-#navbarText {
+.kaka-navbar-toggle {
+  margin: 0 12px;
+}
+
+#navbarText.show {
   background-color: #fff;
   padding: 5px 10px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.06);
+}
+
+#navbarText.show > .kaka-navbar-right {
+  float: left;
 }
 
 .kaka-navbar-content {
   height: 80px;
   display: flex;
   align-items: center;
+  background-color: #fff;
 }
 
 .kaka-navbar-logo-container {
@@ -77,9 +87,21 @@ body {
   font-weight: 600;
 }
 
+.kaka-navbar-link {
+  padding: 10px 25px !important;
+}
+
+.kaka-navbar-link:hover {
+  color: #5DA63E !important;
+}
+
 .kaka-navbar-active {
   color: #5DA63E !important;
   border-bottom: 3px solid !important;
+}
+
+.kaka-navbar-right {
+  float: right;
 }
 
 .kaka-main {
@@ -149,11 +171,11 @@ body {
   margin-top: 50px;
 }
 
-.kaka-highlight {
+.kaka-highlight, .kaka-top-product {
   padding: 50px 0;
 }
 
-.kaka-highlight-title {
+.kaka-highlight-title, .kaka-top-product-title {
   text-align: center;
   font-size: 30px;
   font-weight: 700;
@@ -164,6 +186,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 25px;
 }
 
 .kaka-highlight-info-image {
@@ -194,7 +217,7 @@ body {
 
 /*  About us starts */
 .kaka-about-us-intro {
-  height: 400px;
+  height: 1000px;
   display: flex;
   align-items: center;
   justify-content: center;
