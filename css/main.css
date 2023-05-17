@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto';
+  font-size: 16px;
 }
 
 .kaka-navbar {
@@ -58,6 +59,11 @@ body {
   align-items: center;
 }
 
+.kaka-navbar-logo-container {
+  height: 65px;
+  width: 150px;
+}
+
 .kaka-navbar-logo {
   height: 55px;
 }
@@ -68,19 +74,130 @@ body {
 
 .kaka-navbar-active {
   color: #5DA63E !important;
+  border-bottom: 3px solid !important;
 }
 
 .kaka-main {
   padding-top: 110px;
 }
 
+.kaka-footer {
+  background-color: #5DA63E;
+  color: #fff;
+}
+
+.kaka-footer-container {
+  display: flex;
+}
+
+.kaka-footer-content {
+  padding: 50px 0;
+}
+
+.kaka-footer-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.kaka-footer-info {
+  display: flex;
+  align-items: center;
+}
+
+.kaka-footer-info-label {
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.kaka-footer-logo-container {
+  display: flex;
+}
+
+.kaka-footer-logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.kaka-footer-logo-image-shopee {
+  width: 45px;
+  height: 45px;
+  margin: 8px;
+}
+
+.kaka-footer-logo-image-facebook {
+  width: 40px;
+  height: 40px;
+}
+
+.kaka-footer-copyright {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+/* Main starts */
+
 .kaka-banners {
   margin-top: 50px;
 }
 
+.kaka-highlight {
+  padding: 50px 0;
+}
+
+.kaka-highlight-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.kaka-highlight-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.kaka-highlight-info-image {
+  width: 145px;
+  height: 145px;
+}
+
+.kaka-highlight-info-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700
+}
+
+.kaka-banner {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.26);
+}
+
+.kaka-banner-image {
+  height: 800px;
+}
+
+/* Main ends */
+
+/*  About us starts */
 .kaka-about-us-intro {
   height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+/*  About us ends */
+
+/* Product starts */
+
+/* Product ends */
+
+/* Contact starts */
+
+/* Contact ends */
