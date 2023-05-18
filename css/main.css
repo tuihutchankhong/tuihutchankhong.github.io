@@ -32,7 +32,7 @@ body {
 .kaka-navbar-top-icon-container {
   display: flex;
   align-items: center;
-  margin: 0 15px;
+  margin: 5px 15px;
   cursor: pointer;
 }
 
@@ -67,6 +67,7 @@ body {
   display: flex;
   align-items: center;
   background-color: #fff;
+  padding: 0 !important;
 }
 
 .kaka-navbar-logo-container {
@@ -97,20 +98,6 @@ body {
 
 .kaka-navbar-right {
   float: right;
-}
-
-@media screen and (max-width: 500px) {
-  #navbarText {
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.06);
-  }
-
-  .kaka-navbar-container {
-    padding: 0 12px !important;
-  }
-
-  .kaka-navbar-right {
-    float: none;
-  }
 }
 
 .kaka-main {
@@ -207,6 +194,11 @@ body {
 
 .kaka-highlight, .kaka-top-product {
   padding: 50px 0;
+}
+
+.kaka-top-product-row {
+  margin: auto 0;
+  padding: 0;
 }
 
 .kaka-highlight-title, .kaka-top-product-title {
@@ -337,3 +329,38 @@ body {
   font-size: 20px;
 }
 /* Contact ends */
+
+@media screen and (max-width: 500px) {
+  .kaka-navbar-top-container {
+    justify-content: center;
+  }
+
+  .kaka-navbar-top-icon-text {
+    display: none;
+  }
+
+  #navbarText {
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.06);
+  }
+
+  .kaka-navbar-container {
+    padding: 0 12px !important;
+  }
+
+  .kaka-navbar-right {
+    float: none;
+  }
+
+  .kaka-top-product-card {
+    margin: 10px 0;
+    padding: 15px;
+  }
+
+  .kaka-contact-us-zalo {
+    margin-top: 25px;
+  }
+
+  .kaka-footer-content {
+    padding: 20px 0;
+  }
+}

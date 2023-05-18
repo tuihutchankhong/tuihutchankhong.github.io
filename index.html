@@ -17,7 +17,7 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
    </head>
    <body>
-     <nav class="kaka-navbar">
+     <!-- <nav class="kaka-navbar">
        <div class="kaka-navbar-top">
         <div class="container kaka-navbar-top-container">
          <div class="kaka-navbar-top-icon-container">
@@ -64,7 +64,55 @@
            </div>
        </div>
      </div>
-     </nav>
+   </nav>-->
+   <nav class="kaka-navbar">
+     <div class="kaka-navbar-top">
+      <div class="container kaka-navbar-top-container">
+       <div class="kaka-navbar-top-icon-container">
+         <img class="kaka-navbar-top-icon-image kaka-navbar-top-icon-email" src="images/icon-email.png"/>
+         <div class="kaka-navbar-top-icon-text">abc@xyz.com</div>
+       </div>
+       <div class="kaka-navbar-top-icon-container">
+         <img class="kaka-navbar-top-icon-image kaka-navbar-top-icon-zalo" src="images/icon-zalo.png"/>
+         <div class="kaka-navbar-top-icon-text">090 xxx xxxx</div>
+       </div>
+     </div>
+   </div>
+   <div class="navbar navbar-expand-lg bg-body-tertiary kaka-navbar-content">
+     <div class="container kaka-navbar-container">
+         <a class="navbar-brand navbar-custom-logo kaka-navbar-logo-container" href="/">
+           <img class="kaka-navbar-logo" src="images/logo.png">
+         </a>
+         <button class="navbar-toggler kaka-navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarText">
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
+             <li class="nav-item kaka-navbar-item">
+               <a class="nav-link kaka-navbar-link" aria-current="page" href="/">TRANG CHỦ</a>
+             </li>
+             <li class="nav-item kaka-navbar-item">
+               <a class="nav-link active kaka-navbar-active kaka-navbar-link" href="about.html">VỀ CHÚNG TÔI</a>
+             </li>
+             <li class="nav-item kaka-navbar-item">
+               <a class="nav-link kaka-navbar-link" href="product.html">SẢN PHẨM</a>
+             </li>
+             <li class="nav-item kaka-navbar-item">
+               <a class="nav-link kaka-navbar-link" target="_blank" href="https://shopee.vn">BÁN LẺ</a>
+             </li>
+             <li class="nav-item kaka-navbar-item">
+               <a class="nav-link kaka-navbar-link" target="_blank" href="https://facebook.com">BÁN SỈ/ PHÂN PHỐI</a>
+             </li>
+           </ul>
+           <ul class="navbar-nav mb-2 mb-lg-0 d-flex kaka-navbar-right">
+             <li class="nav-item kaka-navbar-item">
+               <a class="nav-link kaka-navbar-link" href="contact.html">LIÊN HỆ</a>
+             </li>
+          </ul>
+         </div>
+     </div>
+   </div>
+ </nav>
      <div class="kaka-main">
        <div class="container kaka-banners">
          <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -126,9 +174,9 @@
       </div>
       <div class="container kaka-top-product">
         <div class="kaka-top-product-title">Sản Phẩm Nổi Bật</div>
-        <div class="row">
-          <div class="col-md-3 kaka-top-product-card">
-            <div class="card">
+        <div class="container row kaka-top-product-row">
+          <div class="col-md-3">
+            <div class="card kaka-top-product-card">
               <img class="kaka-top-product-card-image ratio ratio-16x9" src="images/product-1.jpeg" >
               <div class="card-body">
                 <h5 class="card-title">PRODUCT 1</h5>
@@ -136,8 +184,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 kaka-top-product-card">
-            <div class="card">
+          <div class="col-md-3">
+            <div class="card kaka-top-product-card">
               <img class="kaka-top-product-card-image ratio ratio-16x9" src="images/product-2.jpeg" >
               <div class="card-body">
                 <h5 class="card-title">PRODUCT 2</h5>
@@ -145,8 +193,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 kaka-top-product-card">
-            <div class="card">
+          <div class="col-md-3">
+            <div class="card kaka-top-product-card">
               <img class="kaka-top-product-card-image ratio ratio-16x9" src="images/product-3.jpeg" >
               <div class="card-body">
                 <div class="card-title">PRODUCT 3</div>
@@ -154,8 +202,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 kaka-top-product-card">
-            <div class="card">
+          <div class="col-md-3">
+            <div class="card kaka-top-product-card">
               <img class="kaka-top-product-card-image ratio ratio-16x9" src="images/product-4.jpeg" >
               <div class="card-body">
                 <h5 class="card-title">PRODUCT 4</h5>
