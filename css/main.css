@@ -318,6 +318,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 340px;
 }
 
 .kaka-contact-us-zalo-qr {
@@ -329,6 +330,7 @@ body {
 
 .kaka-contact-us-zalo-text {
   font-size: 20px;
+  margin-bottom: 10px;
 }
 /* Contact ends */
 
