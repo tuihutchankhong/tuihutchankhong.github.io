@@ -36,6 +36,11 @@ body {
   cursor: pointer;
 }
 
+.kaka-navbar-top-link {
+  color: white;
+  text-decoration: none;
+}
+
 .kaka-navbar-top-icon-text {
   font-size: 14px;
   margin-left: 5px;
