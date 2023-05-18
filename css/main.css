@@ -71,8 +71,8 @@ body {
 }
 
 .kaka-navbar-logo-container {
-  height: 65px;
-  width: 150px;
+  height: 70px;
+  width: 182px;
 }
 
 .kaka-navbar-logo {
@@ -84,7 +84,7 @@ body {
 }
 
 .kaka-navbar-link {
-  padding: 10px 25px !important;
+  padding: 10px 20px !important;
 }
 
 .kaka-navbar-link:hover {
