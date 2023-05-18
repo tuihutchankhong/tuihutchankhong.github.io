@@ -178,7 +178,13 @@ body {
 .kaka-footer-logo-image-shopee {
   width: 45px;
   height: 45px;
-  margin: 8px;
+  margin-right: 8px;
+}
+
+.kaka-footer-logo-image-lazada {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
 }
 
 .kaka-footer-logo-image-facebook {
@@ -244,18 +250,90 @@ body {
 /* Main ends */
 
 /*  About us starts */
-.kaka-about-us-intro {
-  height: 1000px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.kaka-about-us-container {
+  padding: 150px 0;
 }
+
+.kaka-about-us-title {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #5DA63E;
+}
+
+.kaka-about-us-description {
+  font-size: 24px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.54);
+}
+
 /*  About us ends */
 
 /* Product starts */
+.kaka-product-container {
+  padding: 100px 0;
+}
+
+.kaka-product-title {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #5DA63E;
+}
+
+.kaka-product-list-container {
+  margin-bottom: 50px;
+}
+
+.kaka-product-list-row {
+  margin-bottom: 20px;
+}
 
 /* Product ends */
 
 /* Contact starts */
+.kaka-contact-us-container {
+  padding: 100px 0;
+}
 
+.kaka-contact-us-title {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #5DA63E;
+}
+
+.kaka-contact-us-info {
+  margin-bottom: 50px;
+}
+
+.kaka-contact-us-company-name {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.kaka-contact-us-info-text {
+  font-weight: 600;
+}
+
+.kaka-contact-us-zalo {
+  border: 1px solid rgba(0, 0, 0, 0.54);
+  border-radius: 3px;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kaka-contact-us-zalo-qr {
+  width: 270px;
+  height: 270px;
+  background: grey;
+  margin: 25px;
+}
+
+.kaka-contact-us-zalo-text {
+  font-size: 20px;
+}
 /* Contact ends */
