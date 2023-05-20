@@ -265,15 +265,27 @@ body {
 /*  About us ends */
 
 /* Product starts */
-.kaka-product-container {
-  padding: 100px 0;
-}
-
-.kaka-product-title {
+.kaka-product-page-title {
   font-size: 40px;
   font-weight: 900;
   text-align: center;
   color: #5DA63E;
+}
+
+.kaka-product-container {
+  padding: 50px 0;
+}
+
+.kaka-top-product-link {
+  text-decoration: none;
+}
+
+.kaka-product-card-title {
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  color: #5DA63E;
+  text-transform: capitalize;
 }
 
 .kaka-product-list-container {
@@ -285,6 +297,25 @@ body {
 }
 
 /* Product ends */
+
+/* Product detail starts */
+.kaka-product-detail-container {
+  margin-bottom: 100px;
+}
+.kaka-product-detail-title {
+  font-size: 34px;
+  font-weight: 900;
+  color: #5DA63E;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.kaka-product-detail-sub-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+/* Product detail ends */
 
 /* Contact starts */
 .kaka-contact-us-container {
