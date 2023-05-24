@@ -273,6 +273,10 @@ body {
 /*  About us ends */
 
 /* Product starts */
+.kaka-top-product-card {
+  overflow: hidden;
+}
+
 .kaka-product-page-title {
   font-size: 40px;
   font-weight: 900;
