@@ -237,7 +237,6 @@ body {
 }
 
 .kaka-banner-image {
-  max-height: 800px;
   max-width: 800px;
 }
 
@@ -384,6 +383,10 @@ body {
 
   .kaka-navbar-right {
     float: none;
+  }
+
+  .kaka-banner-image {
+    width: 100%;
   }
 
   .kaka-top-product-card {
