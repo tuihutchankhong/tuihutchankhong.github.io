@@ -110,14 +110,6 @@ body {
   padding-top: 110px;
 }
 
-.kaka-floating {
-  position: fixed;
-  right: 40px;
-  bottom: 40px;
-  display: flex;
-  flex-direction: column;
-}
-
 .kaka-floating-link {
   margin: 0 5px;
 }
@@ -174,15 +166,10 @@ body {
   margin-right: 8px;
 }
 
-.kaka-footer-logo-image-lazada {
+.kaka-footer-logo-image-lazada, .kaka-footer-logo-image-facebook, .kaka-footer-logo-image-zalo {
   width: 40px;
   height: 40px;
   margin-right: 8px;
-}
-
-.kaka-footer-logo-image-facebook {
-  width: 40px;
-  height: 40px;
 }
 
 .kaka-footer-copyright {
