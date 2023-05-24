@@ -85,6 +85,10 @@ body {
   font-weight: 600;
 }
 
+.kaka-navbar-item-logo {
+  display: flex;
+}
+
 .kaka-navbar-link {
   padding: 10px 20px !important;
 }
@@ -115,12 +119,12 @@ body {
 }
 
 .kaka-floating-link {
-  padding: 5px 0;
+  margin: 0 5px;
 }
 
 .kaka-floating-icon {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   border: 3px solid #5DA63E;
 }
@@ -397,6 +401,7 @@ body {
 
   .kaka-navbar-right {
     float: none;
+    display: flex !important;
   }
 
   .kaka-banner-image {
